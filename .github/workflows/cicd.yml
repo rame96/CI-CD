@@ -53,7 +53,7 @@ jobs:
         context: .
         file: ./DockerFile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/flasktest-app:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}flasktest-app:latest
 
 
     - name: Image digest
